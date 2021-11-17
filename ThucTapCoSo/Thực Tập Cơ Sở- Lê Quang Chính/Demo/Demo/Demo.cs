@@ -30,7 +30,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("henrymain23@gmail.com"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("main99");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -47,7 +47,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("mainlqc0203"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("chinh123");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -91,7 +91,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("mainlqc0203"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("chinh123");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -118,7 +118,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("henrymain23@gmail.com"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("main99");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -145,7 +145,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("mainlqc0203"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("chinh123");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -176,7 +176,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("henrymain23@gmail.com"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("main99");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -200,7 +200,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("mainlqc0203"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("chinh123");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -229,7 +229,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("henrymain23@gmail.com"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("main99");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -253,7 +253,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("mainlqc0203"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("chinh123"); /*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys(""); /*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -280,7 +280,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("henrymain23@gmail.com"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("main99");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
@@ -311,7 +311,7 @@ namespace Demo
                     chromeDriver.Navigate();
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     chromeDriver.FindElement(By.Name("username")).SendKeys("mainlqc0203"); /*tìm element user mà nhập*/
-                    chromeDriver.FindElement(By.Name("password")).SendKeys("chinh123");/*tìm element pass mà nhập*/
+                    chromeDriver.FindElement(By.Name("password")).SendKeys("");/*tìm element pass mà nhập*/
                     chromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); /* đợi load trang 10s*/
                     var button = chromeDriver.FindElementByXPath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div");/* đăng nhập*/
                     button.Click();
